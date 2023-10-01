@@ -1,0 +1,34 @@
+{
+    "name": "pae/waramity",
+    "description": "Waramity WordPress Plugin",
+	"license": "GPL-3.0+",
+	"version": "1.0.0",
+    "autoload": {
+        "psr-4": {
+            "Pae\\Waramity\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "waramity",
+            "email": "waramity.re@gmail.com"
+        }
+    ],
+	"require": {
+		"php": ">=5.4.0"
+	},
+	"keywords": [
+		"wordpress",
+		"plugin"
+	],
+	"homepage": "https://github.com/waramity",
+	"require-dev": {
+		"wp-coding-standards/wpcs": "^2.3",
+		"phpcompatibility/phpcompatibility-wp": "^2.1"
+	},
+	"config": {
+		"allow-plugins": {
+			"dealerdirect/phpcodesniffer-composer-installer": true
+		}
+	}
+}
